@@ -1,0 +1,333 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5;
+    scroll-behavior: smooth;
+    font-family: 'Chakra Petch', sans-serif;
+    --background-color: #161612;
+}
+
+h1{
+    font-size: 2.6rem;
+}
+
+h2{
+    font-size: 4rem;
+    text-shadow: 2px 2px #665c5c;;
+    background: linear-gradient( #555a5e, transparent),
+}
+
+h3{
+    font-size: 2rem;
+    font-weight: normal;
+}
+
+h5{
+    font-size: 6rem;
+    font-weight: normal;
+    margin: -12rem 1rem;
+    color:rgb(10, 228, 10);
+}
+
+a{
+    color: rgb(11, 172, 51);
+    text-decoration: none;
+}
+
+
+.main-head{
+    background: #0d0d0e;
+    color: rgb(38, 209, 22);
+    position: sticky;
+    top: 0px;
+    z-index: 2;
+}
+
+nav {
+    min-height: 5vh;
+    padding: 2rem;
+    display: flex;
+    width: 90%;
+    margin: auto;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+nav ul{
+    display: flex;
+    flex: 1 1 40rem;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+#logo{
+    flex: 1 1 40rem;
+    font-weight: 400;
+}
+
+.hero{
+    background: url('/img/baby.jpg');
+    min-height: 95vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: rgb(17, 197, 17);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+} 
+
+button{
+    /* top and bottom, left and right  */
+    font-family: 'Chakra Petch', sans-serif;
+    padding: 2rem 6rem;
+    background-color: var(--background-color);
+    border: none;
+    color: rgb(16, 212, 75);
+    cursor: pointer;
+    font-size: 1.8rem;
+    border-radius: 200px;
+    transition: background-color 0.2s ease-in-out;
+}
+/*Button hover color*/
+button:hover{
+    background-color: #14488d;
+}
+
+.hero h3{
+    padding: 5rem;
+}
+
+.about{
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.about-text{
+    flex: 2 1 40rem;
+    justify-content: space-around;
+    background: #e4e4a1;
+    color: rgb(10, 228, 10);
+}
+
+.about-text div{
+    padding: 3rem 8rem;
+}
+
+.about-image{
+    flex: 1 1 40rem;
+    position: relative;
+}
+
+.about-image h5{
+    position: absolute;
+    letter-spacing: 2rem;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -20%);
+    background-position: center;
+}
+
+.about-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.skills-header{
+    background-color: #eaeab4
+    ;
+    padding: 3rem;
+    min-height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(6, 219, 70);
+    text-align: center;
+}
+
+.skills-header h3{
+    padding: 1rem;
+}
+
+.cards{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    min-height: 70vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.card{
+    flex: 1 1 20rem;
+    min-height: 40vh;
+    /* top, bottom and left, right */
+    margin: 2rem 3rem;
+    text-align: center;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.397),
+    0px 20px 20px rgba(0, 0, 0, 0.397)
+} /*shaddows*/
+
+.cards img{
+    max-width: 15%;
+    margin: 2rem;
+}
+
+.card h4,
+.card p{
+    padding: 0.5rem;
+}
+
+.card-icon{
+    background: #444647;
+}
+/*Button outside color*/
+.card-button{
+    background-color: rgb(3, 69, 95);
+    margin: 1.5rem;
+}
+
+.contact-header{
+    background-color: #efefc8;
+    padding: 3rem;
+    min-height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(6, 219, 70);
+    text-align: center;
+}
+
+.contact-header h3{
+    padding: 1rem;
+}
+
+.projects-header{
+    background-color: #f5f5dc;
+    padding: 3rem;
+    min-height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(6, 219, 70);
+    text-align: center;
+
+}
+
+.projects-header h3{
+    padding: 1rem;
+}
+
+.card-icon7{
+    background: #ceb682;
+}
+
+.card-icon5{
+    background: rgb(235, 221, 35);
+}
+
+.card-icon4{
+    background: #e00b0bc7;
+}
+
+.card-icon6{
+    background: rgb(0,172,238);
+}
+
+.card-icon1{
+    background: rgb(7, 134, 219);
+}
+
+.card-icon2{
+    background: rgb(5, 41, 119);
+}
+
+.card-icon3{
+    background: rgb(9, 119, 5);
+}
+
+/*Contact section \|/*/
+
+#Email{
+    min-height: 90vh;
+    background: linear-gradient(rgba(0,0,0,0.555), transparent),url(/img/socials.jpg);
+    background-repeat: no-repeat;/*prevents small background from repeating*/
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-wrapper{
+    background: rgb(19, 28, 39, 0.8);
+    width: 60%;
+    color: white;
+    border-radius: 20px;
+    margin: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.form-head{
+    text-align: 4rem;
+    padding: 4rem;
+
+}
+
+.form-wrapper input{
+    padding: 1rem 3rem;
+    /*space between the name and gmail boxes*/
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.footer-wrapper{
+    display: flex;
+    padding: 2rem;
+    width: 90%;
+    align-items: center;
+    margin: auto;
+    min-height: 10vh;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+footer{
+    color: white;
+    background: black;
+}
+
+footer h5{
+    flex: 1 1 20rem;
+}
+
+footer ul{
+    display: flex;
+    list-style: none;
+    flex: 1 1 20rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-wrapper,
+h5{
+    font-size: 2rem;
+    font-weight: normal;
+}
+
+.hero
+h3{text-shadow: 2px 2px #2a2a2b;}

@@ -1,0 +1,15 @@
+{
+  "folders": [
+    {
+      "name": ".vscode",
+      "path": "..\\Computer ment\\ExerciseThing\\.vscode"
+    },
+    {
+      "name": "PortfolioProject",
+      "path": "."
+    }
+  ],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "PortfolioProject"
+  }
+}
